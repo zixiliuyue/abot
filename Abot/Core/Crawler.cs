@@ -42,8 +42,7 @@ namespace Abot.Core
         //TODO Its this classes job to make using abot just as easy as the old one but also to
         //add access to things like the scheduler
 
-        //!!!!!!!!!!!!!TODO make this a named logger before releasing 2.0!!!!!!!!!!!!!!
-        static ILog _logger = LogManager.GetLogger(typeof(Crawler).FullName);
+        static ILog _logger = LogManager.GetLogger("AbotLogger");
 
         protected bool _crawlStopReported = false;
         protected bool _crawlCancellationReported = false;

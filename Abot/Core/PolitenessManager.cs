@@ -9,7 +9,7 @@ namespace Abot.Core
 
     public class PolitenessManager : IPolitenessManager
     {
-        private static ILog _logger = LogManager.GetLogger(typeof(PolitenessManager).FullName);
+        private static ILog _logger = LogManager.GetLogger("AbotLogger");
         protected IRobotsDotText _robotsDotText;
         private IRobotsDotTextFinder _robotsDotTextFinder;
         private IDomainRateLimiter _domainRateLimiter;

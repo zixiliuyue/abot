@@ -8,7 +8,7 @@ namespace Abot.Core
 {
     public abstract class EngineBase
     {
-        static ILog _logger = LogManager.GetLogger(typeof(EngineBase).FullName);
+        static ILog _logger = LogManager.GetLogger("AbotLogger");
         
         protected CrawlConfiguration CrawlConfiguration { get; set; }
         

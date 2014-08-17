@@ -54,7 +54,7 @@ namespace Abot.Core
     /// </summary>
     public class PageProcessorEngine : EngineBase, IPageProcessorEngine
     {
-        static ILog _logger = LogManager.GetLogger(typeof(PageProcessorEngine).FullName);
+        static ILog _logger = LogManager.GetLogger("AbotLogger");
 
         public virtual bool IsDone
         {

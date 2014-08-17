@@ -54,7 +54,7 @@ namespace Abot.Core
     /// </summary>
     public class PageRequesterEngine : EngineBase, IPageRequesterEngine
     {
-        static ILog _logger = LogManager.GetLogger(typeof(PageRequesterEngine).FullName);
+        static ILog _logger = LogManager.GetLogger("AbotLogger");
         
         /// <summary>
         /// IPageRequester implementation that is used to make raw http requests
